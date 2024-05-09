@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    font-family: Roboto, sans-serif;
+}
+
+:root {
+    --red: hsl(357.98, 72.36%, 48.24%);
+    --grey: hsl(0, 0%, 87.45%);
+    --dark-grey: hsl(225, 8.16%, 80.78%);
+    --black: hsl(0, 0%, 0%);
+}

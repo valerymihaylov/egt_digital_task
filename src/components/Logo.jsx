@@ -1,7 +1,7 @@
+import './Logo.css'
+
 export default function Logo() {
     return (
-        <div className="logo">
-            <img src="./src/assets/app-logo.svg" alt="EGT Digital Logo"/>
-        </div>
+        <img className="logo" src="./src/assets/app-logo.svg" alt="EGT Digital Logo"/>
     )
 }

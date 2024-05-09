@@ -1,0 +1,42 @@
+.container-links {
+    text-decoration: none;
+    list-style: none;
+    padding-left: 1.25rem;
+}
+
+.container-links li {
+    padding: 0.5rem 0 0.5rem 0;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.container-single-dropdown__item.no-border {
+    border: none;
+}
+
+.container-dropdown__title.lang-switch {
+    justify-content: flex-start;
+    margin-left: 0;
+}
+
+.container-dropdown__title.lang-switch button {
+    padding-left: 0.725rem;
+}
+
+.container-dropdown__list.language-switch {
+    padding-left: 0;
+}
+
+.container-dropdown__list.language-switch a:nth-child(1) {
+    padding-top: 0.5rem;
+    padding-bottom: 0;
+}
+
+.container-dropdown__list.language-switch .dropdown-item {
+    display: flex;
+    align-items: center;
+}
+
+.container-dropdown__list.language-switch .dropdown-item img{
+    margin-right: 0.5rem;
+}

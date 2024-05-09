@@ -1,0 +1,106 @@
+.container-left__menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.container-single-dropdown__item {
+    border-bottom: 1px solid var(--dark-grey);
+}
+
+.container-single-dropdown__item:hover .container-dropdown__list {
+    display: flex;
+}
+
+.container-dropdown__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0.25rem 1rem 0.25rem;
+    margin: 0 1rem 0 1rem;
+}
+
+.container-dropdown__title:hover .link {
+    background: var(--grey);
+    color: var(--red);
+}
+
+.link {
+    background-color: transparent;
+    color: var(--black);
+    font-size: 16px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.container-dropdown__list {
+    display: none;
+    flex-direction: column;
+    padding-left: 2.2rem;
+    background-color: var(--grey);
+    color: var(--black);
+}
+
+.container-dropdown__list a:nth-child(1) {
+    padding-top: 0;
+}
+
+.container-dropdown__list .dropdown-item{
+    padding: 1rem 0 1rem 0;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.container-dropdown__list a:hover {
+    color: var(--red);
+}
+
+@media screen and (min-width: 991px) {
+    .container-left__menu {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .link {
+        background-color: transparent;
+        color: white;
+        padding: 16px;
+        font-size: 16px;
+        border: none;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    .container-dropdown__list {
+        display: none;
+        flex-direction: column;
+        padding: 1rem;
+        position: absolute;
+        background-color: var(--grey);
+        color: var(--black);
+        width: 110px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .container-dropdown__list a{
+        padding: 1rem 0 1rem 0;
+        border-bottom: 1px solid var(--dark-grey);
+        text-transform: capitalize;
+    }
+
+    .container-single-dropdown__item:hover .container-dropdown__list {
+        display: flex;
+    }
+
+    .container-single-dropdown__item:hover .link {
+        background: var(--grey);
+        color: var(--red);
+    }
+
+    .container-dropdown__list a:hover {
+        color: var(--red);
+    }
+}

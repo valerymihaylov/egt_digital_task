@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--red);
+    padding: 0.875rem 1rem 0.875rem 1rem;
+}
+
+.menu {
+    position: absolute;
+    top: 68px;
+    display: flex;
+    flex-direction: column;
+    max-width: 25rem;
+    width: 100%;
+    background: var(--grey);
+    right: 0;
+}
+
+@media screen and (min-width: 991px) {
+    .container {
+        padding: 0 5rem 0 5rem;
+    }
+}
+

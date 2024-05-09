@@ -1,8 +1,10 @@
- import {useState,useEffect} from 'react';
+import {useState,useEffect} from 'react';
 import Records from "../records.json";
-import DropdownMenus from '../components/DropdownMenus.jsx';
+import './Header.css'
 import Logo from '../components/Logo.jsx';
-import Links from "../components/Links.jsx";
+import Hamburger from '../components/Hamburger.jsx';
+import LeftMenu from '../components/Left Menu.jsx';
+import RightMenu from "../components/Right Menu.jsx";
 
 export default function Header() {
 
@@ -34,8 +36,11 @@ export default function Header() {
         <header>
             <div className="container">
                 <Logo />
-                <DropdownMenus />
-                <Links />
+                <Hamburger />
+                <div className="menu">
+                    <LeftMenu />
+                    <RightMenu />
+                </div>
             </div>
         </header>
     );
