@@ -40,3 +40,14 @@
 .container-dropdown__list.language-switch .dropdown-item img{
     margin-right: 0.5rem;
 }
+
+@media screen and (min-width: 991px) {
+    .container-links {
+        display: flex;
+        align-items: center;
+    }
+
+    .container-single-dropdown__item.no-border {
+        display: none;
+    }
+}
