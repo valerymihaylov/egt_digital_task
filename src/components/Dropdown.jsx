@@ -1,12 +1,12 @@
 import {ChevronDown} from "react-feather";
 import './Dropdown.css'
 
-export default function Dropdown () {
+export default function Dropdown ({person, size}) {
         return (
             <div className="container-left__menu">
                 <div className="container-single-dropdown__item">
                     <div className="container-dropdown__title">
-                        <button className="link">r-line</button>
+                        <button className="link">{person.name}</button>
                         <ChevronDown className="mobile-icon"/>
                     </div>
                     <div className="container-dropdown__list">
