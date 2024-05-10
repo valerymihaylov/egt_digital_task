@@ -22,7 +22,7 @@ const Nav = () => {
                     <RightMenu />
                 </div>
                 <div className="container-menu__mobile">
-                    <button onClick={toggleNavbar}>{isOpen ? <X/> : <Menu/>}</button>
+                    <button onClick={toggleNavbar} className={isOpen ? "opened" : "closed"}>{isOpen ? <X width="auto" height="36"/> : <Menu width="auto" height="36"/>}</button>
                 </div>
             </nav>
             {isOpen && (

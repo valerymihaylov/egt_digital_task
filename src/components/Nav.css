@@ -3,13 +3,23 @@
     justify-content: space-between;
     align-items: center;
     background-color: var(--red);
-    padding: 0.875rem 1rem 0.875rem 1rem;
 }
 
 .container-menu__desktop {
     display: none;
 }
 
+.container-menu__mobile button {
+    padding: 0.875rem 1rem;
+    border: none;
+    background: var(--grey);
+    color: var(--red);
+}
+
+.container-menu__mobile button.closed {
+    background: var(--red);
+    color: var(--white);
+}
 
 .mobile-menu {
     display: flex;

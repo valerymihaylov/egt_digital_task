@@ -1,14 +1,12 @@
 import {useState,useEffect} from 'react';
-import Records from "../records.json";
 import './Header.css'
-import Logo from '../components/Logo.jsx';
 import Nav from "../components/Nav.jsx";
 
 export default function Header() {
 
     // const [data,setData]=useState([]);
     // const getData=()=>{
-    //     fetch('src/records.json'
+    //     fetch('src/records.js'
     //         ,{
     //             headers : {
     //                 'Content-Type': 'application/json',
@@ -35,17 +33,4 @@ export default function Header() {
             <Nav />
         </header>
     )
-
-    // return (
-    //     <header>
-    //         <div className="container">
-    //             <Logo />
-    //             <Hamburger />
-    //             <div className="menu">
-    //                 <LeftMenu />
-    //                 <RightMenu />
-    //             </div>
-    //         </div>
-    //     </header>
-    // );
 }

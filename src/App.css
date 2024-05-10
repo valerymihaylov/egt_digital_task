@@ -7,6 +7,11 @@ body {
     --red: hsl(357.98, 72.36%, 48.24%);
     --grey: hsl(0, 0%, 87.45%);
     --dark-grey: hsl(225, 8.16%, 80.78%);
+    --darken-grey: hsl(210, 14.61%, 65.1%);
     --black: hsl(0, 0%, 0%);
     --transparent: hsl(0, 0%, 0%, 0);
+    --white: hsl(0, 0%, 100%);
+    --redish: hsl(354.1, 56.48%, 42.35%);
+    --light-redish: hsl(358.58, 67.91%, 63.33%);
+    --darker-grey: hsl(330, 10.42%, 37.65%);
 }

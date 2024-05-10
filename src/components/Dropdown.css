@@ -39,6 +39,7 @@
     padding-left: 2.2rem;
     background-color: var(--grey);
     color: var(--black);
+    z-index: 2;
 }
 
 .container-dropdown__list .dropdown-item:nth-child(1) {
@@ -49,6 +50,7 @@
     padding: 1rem 0 1rem 0;
     text-transform: capitalize;
     text-decoration: none;
+    font-size: 14px;
     color: var(--black);
 }
 
@@ -76,7 +78,7 @@
     .link {
         background-color: transparent;
         color: white;
-        padding: 1.505rem 2.2rem 1.505rem 2.2rem;
+        padding: 1.505rem 2.2rem;
         font-size: 16px;
         border: none;
         text-transform: uppercase;
@@ -96,6 +98,7 @@
         color: var(--black);
         max-width: 12rem;
         width: 100%;
+        z-index: 2;
     }
 
     .container-dropdown__list .dropdown-item:nth-child(3) {
