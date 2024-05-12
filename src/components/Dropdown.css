@@ -64,6 +64,7 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
+        margin-left: 5rem;
     }
 
     .container-single-dropdown__item {
@@ -78,7 +79,7 @@
     .link {
         background-color: transparent;
         color: white;
-        padding: 1.505rem 2.2rem;
+        padding: 1.67rem 2.2rem;
         font-size: 16px;
         border: none;
         text-transform: uppercase;

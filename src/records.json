@@ -1,0 +1,94 @@
+{
+  "leftMenu": [
+    {
+      "id": 1,
+      "name": "r-line",
+      "first": "premier r4",
+      "second": "premier r6",
+      "third": "premier r8",
+      "subMenuItem": true
+    },
+    {
+      "id": 2,
+      "name": "s-line",
+      "first": "s32",
+      "second": "s32/32",
+      "third": "s32/32/27",
+      "fourth": "Stork",
+      "subMenuItem": true
+    },
+    {
+      "id": 3,
+      "name": "t-line",
+      "first": "LTTR Live",
+      "second": "LTTR Auto",
+      "third": "LTT LC",
+      "subMenuItem": true
+    },
+    {
+      "id": 4,
+      "name": "sbg",
+      "subMenuItem": false
+    }
+  ],
+  "rightMenu": [
+    {
+      "id": 1,
+      "name": "news & events"
+    },
+    {
+      "id": 2,
+      "name": "about us"
+    },
+    {
+      "id": 3,
+      "name": "contact us"
+    }
+  ],
+  "info": [
+    {
+      "id": 1,
+      "category": "news",
+      "icon": "src/assets/news_icon.png",
+      "img": "https://picsum.photos/300/172",
+      "title": "EGT is expecting FADJA Colombioa 2017",
+      "date": "April 4 ,2017",
+      "desc": "lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a"
+    },
+    {
+      "id": 2,
+      "category": "events",
+      "icon": "src/assets/events_icon.png",
+      "img": "https://picsum.photos/300/172",
+      "title": "Indian Gaming Show",
+      "date": "San Diego, April 10-13, 2017\nStand 1833 ",
+      "desc": ""
+    },
+    {
+      "id": 3,
+      "category": "press  & releases",
+      "icon": "src/assets/press_release_icon.png",
+      "img": "https://picsum.photos/300/172",
+      "title": "True Leader accolade for Bulgarian firm",
+      "date": "October 13 ,2021",
+      "desc": "lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "img": "https://picsum.photos/400/600",
+      "name": "r-line"
+    },
+    {
+      "id": 2,
+      "img": "https://picsum.photos/400/600",
+      "name": "s-line"
+    },
+    {
+      "id": 3,
+      "img": "https://picsum.photos/400/600",
+      "name": "t-line"
+    }
+  ]
+}

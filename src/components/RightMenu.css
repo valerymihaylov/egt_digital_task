@@ -19,6 +19,11 @@
     margin-left: 0;
 }
 
+.container-dropdown__title.lang-switch button{
+    display: flex;
+    align-items: center;
+}
+
 .container-dropdown__title.lang-switch .link {
     padding-left: 0.725rem;
 }

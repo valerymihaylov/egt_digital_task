@@ -4,15 +4,29 @@ export const menuData = [
     "name": "r-line",
     "first": "premier r4",
     "second": "premier r6",
-    "third": "premier r8"
+    "third": "premier r8",
+    "subMenuItem": true
   },
   {
     "id": 2,
     "name": "s-line",
     "first": "premier s4",
     "second": "premier s6",
-    "third": "premier s8"
-  }
+    "third": "premier s8",
+    "subMenuItem": true
+  },
+  {
+    "id": 3,
+    "name": "t-line",
+    "first": "premier t4",
+    "second": "premier t6",
+    "third": "premier t8",
+    "subMenuItem": true
+  },
+  {
+    "id": 4,
+    "name": "news & events"
+  },
   // {
   //   "id": 1,
   //   "name": "r-line",

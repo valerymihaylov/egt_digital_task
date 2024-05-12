@@ -46,6 +46,13 @@ body {
     color: var(--white);
     font-weight: 400;
     text-transform: capitalize;
+    padding: 0 1rem;
+}
+
+@media screen and (min-width: 991px) {
+    .slider-text {
+        padding: 0;
+    }
 }
 
 .socials-popup {

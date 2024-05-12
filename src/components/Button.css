@@ -1,0 +1,10 @@
+button {
+    width: 100%;
+    background-color: var(--light-red);
+    color: var(--white);
+    border: none;
+    font-size: 15px;
+    text-transform: uppercase;
+    padding: 1rem 0;
+
+}

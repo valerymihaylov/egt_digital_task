@@ -1,53 +1,29 @@
 import {ChevronDown} from "react-feather";
+import Records from "../records.json";
+
 import './Dropdown.css'
 
-export default function Dropdown ({person, size}) {
-        return (
-            <div className="container-left__menu">
-                <div className="container-single-dropdown__item">
-                    <div className="container-dropdown__title">
-                        <button className="link">{person.name}</button>
-                        <ChevronDown className="mobile-icon"/>
-                    </div>
-                    <div className="container-dropdown__list">
-                        <a className="dropdown-item" href="/">premier r4</a>
-                        <a className="dropdown-item" href="/">premier r6</a>
-                        <a className="dropdown-item" href="/">premier r8</a>
-                    </div>
+export default function Dropdown () {
+    const filteredItems = Records.leftMenu.filter(menuItem =>
+        menuItem.subMenuItem === true)
+
+    const leftMenu = filteredItems.map(menuItem =>
+        <>
+            <div key={menuItem.id} className="container-single-dropdown__item">
+                <div className="container-dropdown__title">
+                    <button className="link">{menuItem.name}</button>
+                    <ChevronDown className="mobile-icon"/>
                 </div>
-                <div className="container-single-dropdown__item">
-                    <div className="container-dropdown__title">
-                        <button className="link">s-line</button>
-                        <ChevronDown className="mobile-icon"/>
-                    </div>
-                    <div className="container-dropdown__list">
-                        <a className="dropdown-item" href="/">premier s4</a>
-                        <a className="dropdown-item" href="/">premier s6</a>
-                        <a className="dropdown-item" href="/">premier s8</a>
-                    </div>
-                </div>
-                <div className="container-single-dropdown__item">
-                    <div className="container-dropdown__title">
-                        <button className="link">t-line</button>
-                        <ChevronDown className="mobile-icon"/>
-                    </div>
-                    <div className="container-dropdown__list">
-                        <a className="dropdown-item" href="/">premier t4</a>
-                        <a className="dropdown-item" href="/">premier t6</a>
-                        <a className="dropdown-item" href="/">premier t8</a>
-                    </div>
-                </div>
-                <div className="container-single-dropdown__item">
-                    <div className="container-dropdown__title">
-                        <button className="link">sbg</button>
-                        <ChevronDown className="mobile-icon"/>
-                    </div>
-                    <div className="container-dropdown__list">
-                        <a className="dropdown-item" href="/">lorem ipsum</a>
-                        <a className="dropdown-item" href="/">lorem ipsum</a>
-                        <a className="dropdown-item" href="/">lorem ipsum</a>
-                    </div>
+                <div className="container-dropdown__list">
+                    <a className="dropdown-item" href="/">{menuItem.first}</a>
+                    <a className="dropdown-item" href="/">{menuItem.second}</a>
+                    <a className="dropdown-item" href="/">{menuItem.third}</a>
                 </div>
             </div>
-        );
+        </>
+    )
+
+    return (
+        <div className="container-left__menu">{leftMenu}</div>
+    )
 }
