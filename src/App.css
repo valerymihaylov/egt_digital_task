@@ -2,31 +2,55 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
+.app {
+    color: var(--text-color);
+}
 
 :root {
     --red: hsl(357.98, 72.36%, 48.24%);
     --light-red: hsl(355.16, 70.93%, 44.51%);
+    --redish: hsl(354.1, 56.48%, 42.35%);
+    --light-redish: hsl(358.58, 67.91%, 63.33%);
     --grey: hsl(0, 0%, 87.45%);
     --dark-grey: hsl(225, 8.16%, 80.78%);
     --middle-grey: hsl(220.65, 14.55%, 41.76%);
     --darken-grey: hsl(210, 14.61%, 65.1%);
-    --black: hsl(0, 0%, 0%);
-    --transparent: hsl(0, 0%, 0%, 0);
-    --black-opacity: hsla(0, 0%, 0%, 0.53);
-    --white: hsl(0, 0%, 100%);
-    --redish: hsl(354.1, 56.48%, 42.35%);
-    --light-redish: hsl(358.58, 67.91%, 63.33%);
     --darker-grey: hsl(330, 10.42%, 37.65%);
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 0%);
+    --black-opacity: hsla(0, 0%, 0%, 0.53);
+    --transparent: hsl(0, 0%, 0%, 0);
     --blue: hsla(201.1, 82.73%, 43.14%, 0.53);
-    --toggle-bg: #283452;
-    --toggle-fg: #00a6ff;
+    --toggle-bg: var(--black-opacity);
+    --toggle-fg: var(--white);
+
+    --background: var(--white);
+    --background-other: var(--grey);
+    --text-color: var(--black);
 }
 
 [data-theme="dark"] {
-    --red: #0a0a0a;
-    --light-red: #567aff;
-    --grey: #f6f6f6;
-    --dark-grey: #0a0a0a;
-    --toggle-bg: #283452;
-    --toggle-fg: #00a6ff;
+    --red: hsl(357.98, 72.36%, 15%);
+    --light-red: hsl(355.16, 70.93%, 44.51%);
+    --redish: hsl(354.1, 56.48%, 42.35%);
+    --light-redish: hsl(358.58, 67.91%, 63.33%);
+    --grey: hsl(0, 0%, 87.45%);
+    --dark-grey: hsl(225, 8.16%, 80.78%);
+    --middle-grey: hsl(220.65, 14.55%, 41.76%);
+    --darken-grey: hsl(210, 14.61%, 65.1%);
+    --darker-grey: hsl(330, 10.42%, 37.65%);
+    --white: hsl(0, 0%, 100%);
+    --black: hsl(0, 0%, 0%);
+    --blackish: hsl(205.71, 13.21%, 10.39%);
+    --darken-blackish: hsl(205.71, 8%, 13%);
+    --black-opacity: hsla(0, 0%, 0%, 0.53);
+    --transparent: hsl(0, 0%, 0%, 0);
+    --blue: hsla(201.1, 82.73%, 43.14%, 0.53);
+    --toggle-bg: var(--blackish);
+    --toggle-fg: var(--redish);
+
+    --background: var(--blackish);
+    --background-other: var(--darken-blackish);
+    --text-color: var(--white);
+}
 }

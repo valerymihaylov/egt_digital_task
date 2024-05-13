@@ -3,7 +3,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-top: 1rem;
+    padding-top: 1rem;
+    background-color: var(--background);
 }
 
 .card-container {
@@ -72,8 +73,9 @@
 @media screen and (min-width: 1160px) {
     .container-section {
         flex-direction: row;
-        margin-top: 1.5rem;
-        margin-bottom: 6rem;
+        padding-top: 1.5rem;
+        padding-bottom: 6rem;
+        background-color: var(--background);
     }
 
     .card-container {

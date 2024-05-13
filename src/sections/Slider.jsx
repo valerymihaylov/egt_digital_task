@@ -17,8 +17,8 @@ export default function Slider() {
                      viewBox="0 0 48 48">
                     <linearGradient id="Ld6sqrtcxMyckEl6xeDdMa_uLWV5A9vXIPu_gr1" x1="9.993" x2="40.615" y1="9.993"
                                     y2="40.615" gradientUnits="userSpaceOnUse">
-                        <stop offset="0" stop-color="#2aa4f4"></stop>
-                        <stop offset="1" stop-color="#007ad9"></stop>
+                        <stop offset="0" stopColor="#2aa4f4"></stop>
+                        <stop offset="1" stopColor="#007ad9"></stop>
                     </linearGradient>
                     <path fill="url(#Ld6sqrtcxMyckEl6xeDdMa_uLWV5A9vXIPu_gr1)"
                           d="M24,4C12.954,4,4,12.954,4,24s8.954,20,20,20s20-8.954,20-20S35.046,4,24,4z"></path>

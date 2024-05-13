@@ -15,6 +15,7 @@ export default function Header({ handleChange, isChecked }) {
                     onChange={handleChange}
                     checked={isChecked}
                 />
+                <label htmlFor="check"></label>
             </div>
         </header>
     )
