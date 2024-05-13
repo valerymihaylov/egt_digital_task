@@ -1,4 +1,4 @@
-#root {
+.app {
     height: 56%;
 }
 html,
@@ -47,6 +47,7 @@ body {
     font-weight: 400;
     text-transform: capitalize;
     padding: 0 1rem;
+    margin: 0;
 }
 
 @media screen and (min-width: 991px) {

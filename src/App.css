@@ -18,4 +18,15 @@ body {
     --light-redish: hsl(358.58, 67.91%, 63.33%);
     --darker-grey: hsl(330, 10.42%, 37.65%);
     --blue: hsla(201.1, 82.73%, 43.14%, 0.53);
+    --toggle-bg: #283452;
+    --toggle-fg: #00a6ff;
+}
+
+[data-theme="dark"] {
+    --red: #0a0a0a;
+    --light-red: #567aff;
+    --grey: #f6f6f6;
+    --dark-grey: #0a0a0a;
+    --toggle-bg: #283452;
+    --toggle-fg: #00a6ff;
 }

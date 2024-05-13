@@ -34,7 +34,7 @@ export default function Slider() {
                 </svg>
             </div>
             <SwiperSlide>
-                <span className="slider-text">your <strong>best<br/> gaming experience</strong></span>
+                <h1 className="slider-text">your <strong>best<br/> gaming experience</strong></h1>
                 <img src='https://picsum.photos/4096' alt=""/>
             </SwiperSlide>
             <SwiperSlide>

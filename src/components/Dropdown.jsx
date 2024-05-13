@@ -4,10 +4,10 @@ import Records from "../records.json";
 import './Dropdown.css'
 
 export default function Dropdown () {
-    const filteredItems = Records.leftMenu.filter(menuItem =>
+    const withSubmenu = Records.leftMenu.filter(menuItem =>
         menuItem.subMenuItem === true)
 
-    const leftMenu = filteredItems.map(menuItem =>
+    const leftItemswithSubmenu = withSubmenu.map(menuItem =>
         <>
             <div key={menuItem.id} className="container-single-dropdown__item">
                 <div className="container-dropdown__title">
@@ -23,7 +23,24 @@ export default function Dropdown () {
         </>
     )
 
+    const withoutSubmenu = Records.leftMenu.filter(menuItem =>
+        menuItem.subMenuItem === false)
+
+    const leftItemswithoutSubmenu = withoutSubmenu.map(menuItem =>
+        <>
+            <div key={menuItem.id} className="container-single-dropdown__item">
+                <div className="container-dropdown__title">
+                    <button className="link">{menuItem.name}</button>
+                    <ChevronDown className="mobile-icon"/>
+                </div>
+            </div>
+        </>
+    )
+
     return (
-        <div className="container-left__menu">{leftMenu}</div>
+        <div className="container-left__menu">
+            {leftItemswithSubmenu}
+            {leftItemswithoutSubmenu}
+        </div>
     )
 }

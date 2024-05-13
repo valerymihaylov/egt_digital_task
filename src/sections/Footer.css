@@ -60,6 +60,7 @@
 
     .top-footer {
         display: flex;
+        justify-content: center;
         padding: 2rem 13.5rem;
     }
 

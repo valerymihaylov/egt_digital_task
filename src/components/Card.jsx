@@ -10,12 +10,12 @@ export default function Card() {
                 <div className="card-header">
                     <div className="card-title__container">
                         <img className="card-title__img" src={item.icon} alt=""/>
-                        <h3 className="card-title">{item.category}</h3>
+                        <h2 className="card-title">{item.category}</h2>
                     </div>
                 </div>
                 <div className="card-content">
                     <img className="card-img" src={item.img} alt=""/>
-                    <h4>{item.title}</h4>
+                    <h3>{item.title}</h3>
                     <span>{item.date}</span>
                     <p>{item.desc}</p>
                     <Button/>

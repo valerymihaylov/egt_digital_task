@@ -30,7 +30,7 @@
     float: right;
 }
 
-@media screen and (min-width: 991px) {
+@media screen and (min-width: 1277px) {
     .container {
         justify-content: flex-start;
         padding: 0 5rem 0 5rem;

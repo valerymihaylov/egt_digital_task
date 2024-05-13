@@ -1,10 +1,21 @@
 import './Header.css'
 import Nav from "../components/Nav.jsx";
 
-export default function Header() {
+export default function Header({ handleChange, isChecked }) {
+
     return (
         <header>
-            <Nav />
+            <Nav/>
+
+            <div className="toggle-container">
+                <input
+                    type="checkbox"
+                    id="check"
+                    className="toggle"
+                    onChange={handleChange}
+                    checked={isChecked}
+                />
+            </div>
         </header>
     )
 }
